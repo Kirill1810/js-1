@@ -3,9 +3,10 @@ const age = "14"
 
 
  const name = "kirill"
+
  console.log(name);
 
- const isStudent = "true"
+ const isStudent = true
 
  console.log(isStudent);
 
@@ -13,21 +14,27 @@ const age = "14"
 
  console.log(myString);
 
- const mynumber = "10"
+ const mynumber = 10 + 11
 
  console.log(mynumber);
 
- const Null = "null"
+ const Null = null
 
  console.log(null);
 
- prompt ()
-
- confirm ()
-
- alert ()
+ let ages = prompt("Введіть ваше ім'я");
 
 
+
+console.log(typeof ages);
+
+let confirmation = confirm("Підтвердіть вашу дію");
+
+console.log(confirmation);
+
+if (confirmation) alert("Дію підтверджено");
+
+else alert("Дію відміненно");
 
 
 
